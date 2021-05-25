@@ -1,3 +1,19 @@
+let day = Math.floor(Math.random()*10)%7+1;
+console.log(day)
+if(day==1)
+    console.log("Monday");
+else if(day==2)
+    console.log("Tuesday");
+else if(day==3)
+    console.log("Wednesday");
+else if(day==4)
+    console.log("Thursday");
+else if(day==5)
+    console.log("Friday");
+else if(day==6)
+    console.log("Saturday");
+else if(day==7)
+    console.log("Sunday"); 
 var num = Math.floor(Math.random()*10);
 console.log(num);
 if(num==1)
@@ -19,4 +35,4 @@ else if(num==8)
 else if(num==9)
     console.log("Nine");
 else if(num==0)
-    console.log("Zero"); 
+    console.log("Zero");
