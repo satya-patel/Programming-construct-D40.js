@@ -29,4 +29,4 @@ if(op3<min)
     min = op3;
 if(op4<min)
     min = op4;
-console.log("Min: "+min); 
+console.log("Min: "+min);
